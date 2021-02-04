@@ -5,7 +5,7 @@ import { project_data } from "../assets/project_data";
 const ProjectTile = ({ title, description, img, url, language }) => {
   return (
     <div className="project-tile">
-      <a href={url} target="_blank" rel="norefferer">
+      <a href={url} target="_blank" rel="noreferrer">
         <div className="project-tile-container">
           <div className="project-img">
             <img src={img} alt={title} />

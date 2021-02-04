@@ -1,4 +1,5 @@
 import github_img from "../assets/images/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png";
+import weather_img from "../assets/images/simple-weather-app-img.png";
 
 export const project_data = [
   {
@@ -29,8 +30,8 @@ export const project_data = [
     id: 3,
     title: "Simple weather app",
     description: "Created as a side project to learn React.js",
-    img: null,
-    url: "/projects/simple-weather-app",
+    img: weather_img,
+    url: "https://austins-simple-weather-app.herokuapp.com/",
     language: "javascript",
   },
 ];

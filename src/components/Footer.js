@@ -19,7 +19,7 @@ const Footer = () => {
               <a
                 href="https://github.com/austin-seyboldt"
                 target="_blank"
-                rel="norefferer"
+                rel="noreferrer"
               >
                 <FaGithub /> <span>Github</span>
               </a>
@@ -28,7 +28,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/austin-seyboldt/"
                 target="_blank"
-                rel="norefferer"
+                rel="noreferrer"
               >
                 <FaLinkedin /> <span>LinkedIn</span>
               </a>
@@ -37,7 +37,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/austinseyboldtphoto/"
                 target="_blank"
-                rel="norefferer"
+                rel="noreferrer"
               >
                 <FaInstagram /> <span>Instagram</span>
               </a>
