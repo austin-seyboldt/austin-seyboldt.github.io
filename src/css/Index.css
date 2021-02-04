@@ -4,8 +4,6 @@
   --color-main-2: rgb(58, 78, 83);
   --color-secondary-1: rgb(48, 59, 57);
   --color-secondary-2: rgb(98, 86, 83);
-
-  --mobile-width: 700px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
