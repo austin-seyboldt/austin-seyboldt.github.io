@@ -4,6 +4,8 @@
   --color-main-2: rgb(58, 78, 83);
   --color-secondary-1: rgb(48, 59, 57);
   --color-secondary-2: rgb(98, 86, 83);
+
+  --mobile-width: 700px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
@@ -58,10 +60,10 @@ h3 {
 
 .section {
   width: 100%;
-  min-height: 100vh;
 }
 
 .section-container {
+  background-color: var(--color-main-1);
   width: 80%;
   max-width: 900px;
   margin: 0 auto;
@@ -69,15 +71,10 @@ h3 {
   overflow: auto;
 }
 
-.section-container h1 {
+.section-container h1,
+.section-container h2 {
   color: var(--color-secondary-2);
   font-size: 3rem;
   padding: 1rem 0 2rem 0;
   text-align: center;
-}
-
-.section-container p {
-  color: var(--color-secondary-2);
-  padding-bottom: 2rem;
-  font-size: 1.2rem;
 }

@@ -13,21 +13,33 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-sub-container">
-          <h3>or check me out elsewhere</h3>
+          <h3 id="footer-links-header">or check me out elsewhere</h3>
           <ul className="footer-links">
-            <li>
-              <a href="https://github.com/austin-seyboldt">
-                <FaGithub /> Github
+            <li className="footer-link">
+              <a
+                href="https://github.com/austin-seyboldt"
+                target="_blank"
+                rel="norefferer"
+              >
+                <FaGithub /> <span>Github</span>
               </a>
             </li>
-            <li>
-              <a href="https://www.linkedin.com/in/austin-seyboldt/">
-                <FaLinkedin /> LinkedIn
+            <li className="footer-link">
+              <a
+                href="https://www.linkedin.com/in/austin-seyboldt/"
+                target="_blank"
+                rel="norefferer"
+              >
+                <FaLinkedin /> <span>LinkedIn</span>
               </a>
             </li>
-            <li>
-              <a href="https://www.instagram.com/austinseyboldtphoto/">
-                <FaInstagram /> Instagram
+            <li className="footer-link">
+              <a
+                href="https://www.instagram.com/austinseyboldtphoto/"
+                target="_blank"
+                rel="norefferer"
+              >
+                <FaInstagram /> <span>Instagram</span>
               </a>
             </li>
           </ul>

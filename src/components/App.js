@@ -4,6 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Landing from "./Landing";
 import Intro from "./Intro";
+import Projects from "./Projects";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <Landing />
       <Intro />
+      <Projects />
       <Footer />
     </div>
   );
