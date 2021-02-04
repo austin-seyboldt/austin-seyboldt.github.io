@@ -1,2 +1,2 @@
 # Visit my webpage
-https://austin-seyboldt.gtihub.io
+https://austin-seyboldt.github.io/
