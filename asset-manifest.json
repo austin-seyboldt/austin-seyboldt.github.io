@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f55d78c.chunk.css",
-    "main.js": "/static/js/main.5ba775b3.chunk.js",
-    "main.js.map": "/static/js/main.5ba775b3.chunk.js.map",
+    "main.css": "/static/css/main.0b858adc.chunk.css",
+    "main.js": "/static/js/main.9de70931.chunk.js",
+    "main.js.map": "/static/js/main.9de70931.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.647f0b20.js",
     "runtime-main.js.map": "/static/js/runtime-main.647f0b20.js.map",
     "static/js/2.c95aeba0.chunk.js": "/static/js/2.c95aeba0.chunk.js",
     "static/js/2.c95aeba0.chunk.js.map": "/static/js/2.c95aeba0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1f55d78c.chunk.css.map": "/static/css/main.1f55d78c.chunk.css.map",
+    "static/css/main.0b858adc.chunk.css.map": "/static/css/main.0b858adc.chunk.css.map",
     "static/js/2.c95aeba0.chunk.js.LICENSE.txt": "/static/js/2.c95aeba0.chunk.js.LICENSE.txt",
     "static/media/me.9fffd8d0.jpeg": "/static/media/me.9fffd8d0.jpeg",
-    "static/media/Landing.css": "/static/media/mountains.9330848c.jpg"
+    "static/media/Landing.css": "/static/media/mountains.9330848c.jpg",
+    "static/media/simple-weather-app-img.e956bd1f.png": "/static/media/simple-weather-app-img.e956bd1f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.647f0b20.js",
     "static/js/2.c95aeba0.chunk.js",
-    "static/css/main.1f55d78c.chunk.css",
-    "static/js/main.5ba775b3.chunk.js"
+    "static/css/main.0b858adc.chunk.css",
+    "static/js/main.9de70931.chunk.js"
   ]
 }
