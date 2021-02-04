@@ -9,12 +9,12 @@
   height: auto;
   margin: 1rem;
   background-color: var(--color-secondary-2);
-  opacity: 80%;
+  opacity: 0.8;
   overflow: hidden;
 }
 
 .project-tile:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .project-tile-container {
@@ -62,12 +62,10 @@
   }
 
   .project-tile {
-    opacity: 100%;
     width: 100%;
     margin: 1.5rem 0;
     height: auto;
     background-color: var(--color-secondary-2);
-    opacity: 80%;
     overflow: auto;
   }
 
