@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 0.5rem;
+  background-color: var(--color-secondary-2);
+}
+
+.footer-container {
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-sub-container {
+  padding: 0 2rem;
+}
+
+.footer-links {
+}
+
+.footer-links > * {
+  padding: 0.2rem 0;
+}
