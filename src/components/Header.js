@@ -5,7 +5,6 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const updateIsMenuOpen = (e) => {
-    console.log(e.target);
     if (e.target.innerWidth > 700) {
       setIsMenuOpen(false);
     }
