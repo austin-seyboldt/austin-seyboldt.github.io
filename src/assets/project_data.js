@@ -21,7 +21,7 @@ export const project_data = [
   {
     id: 2,
     title: "Server Load Balancer",
-    description: "Works with web server to increase throughput",
+    description: "Works with my web server to increase throughput",
     img: github_img,
     url: "https://github.com/austin-seyboldt/web_server_load_balancer",
     language: "C",

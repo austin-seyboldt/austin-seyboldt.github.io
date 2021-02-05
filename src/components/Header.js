@@ -1,26 +1,39 @@
 import React, { useState, useEffect } from "react";
 import "../css/Header.css";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrollOffset, setScrollOffset] = useState(0);
 
-  const updateIsMenuOpen = (e) => {
+  const onWindowResize = (e) => {
     if (e.target.innerWidth > 700) {
       setIsMenuOpen(false);
     }
+    setScrollOffset(getScrollOffset());
+  };
+
+  const getScrollOffset = () => {
+    const headerElement = document
+      .getElementById("header")
+      .getBoundingClientRect();
+
+    return headerElement.top - headerElement.bottom;
   };
 
   // closes the drop down menu if user resizes from mobile to
   // desktop and back
+  // updates scroll offset
   useEffect(() => {
-    window.addEventListener("resize", updateIsMenuOpen);
+    setScrollOffset(getScrollOffset());
+    window.addEventListener("resize", onWindowResize);
     return () => {
-      window.removeEventListener("resize", updateIsMenuOpen);
+      window.removeEventListener("resize", onWindowResize);
     };
   }, []);
-
+  console.log(scrollOffset);
   return (
-    <header className="header">
+    <header className="header" id="header">
       <div className="header-container">
         <nav className="main-nav">
           <div
@@ -33,13 +46,40 @@ const Header = () => {
           </div>
           <ul className={`main-nav-list ${isMenuOpen ? "active" : ""}`}>
             <li className="main-nav-item">
-              <a href="/">home</a>
+              <Link
+                activeClass="active"
+                to="home-section"
+                spy={true}
+                smooth={true}
+                offset={scrollOffset}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                home
+              </Link>
             </li>
             <li className="main-nav-item">
-              <a href="/about">about</a>
+              <Link
+                activeClass="active"
+                to="intro-section"
+                spy={true}
+                smooth={true}
+                offset={scrollOffset}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                about
+              </Link>
             </li>
             <li className="main-nav-item">
-              <a href="/projects">projects</a>
+              <Link
+                activeClass="active"
+                to="projects-section"
+                spy={true}
+                smooth={true}
+                offset={scrollOffset}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                projects
+              </Link>
             </li>
             <li className="main-nav-item">
               <a href="/resume">resume</a>
@@ -49,6 +89,9 @@ const Header = () => {
                 href="https://www.austinseyboldt.com/"
                 target="_blank"
                 rel="noreferrer"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
               >
                 photography
               </a>
