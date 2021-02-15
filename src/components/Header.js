@@ -31,7 +31,7 @@ const Header = () => {
       window.removeEventListener("resize", onWindowResize);
     };
   }, []);
-  console.log(scrollOffset);
+
   return (
     <header className="header" id="header">
       <div className="header-container">
@@ -82,7 +82,13 @@ const Header = () => {
               </Link>
             </li>
             <li className="main-nav-item">
-              <a href="/resume">resume</a>
+              <a
+                href="https://github.com/austin-seyboldt/austin-seyboldt.github.io/blob/main/src/assets/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                resume
+              </a>
             </li>
             <li className="main-nav-item">
               <a
