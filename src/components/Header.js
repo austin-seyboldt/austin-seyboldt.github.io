@@ -86,6 +86,7 @@ const Header = () => {
                 href="https://github.com/austin-seyboldt/austin-seyboldt.github.io/blob/main/src/assets/resume.pdf"
                 target="_blank"
                 rel="noreferrer"
+                onClick={() => setIsMenuOpen(false)}
               >
                 resume
               </a>
@@ -95,9 +96,7 @@ const Header = () => {
                 href="https://www.austinseyboldt.com/"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() => {
-                  setIsMenuOpen(false);
-                }}
+                onClick={() => setIsMenuOpen(false)}
               >
                 photography
               </a>
